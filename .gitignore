@@ -1,0 +1,103 @@
+# Public documentation repository for this acquisition package.
+#
+# Documentation only. No source code, no data-room documents, no valuations,
+# no sale terms. The rules below are a safety net, not a filter: nothing that
+# matches them should ever be placed here in the first place.
+
+# Data-room documents - confidential, released under NDA only
+*DATA-ROOM*
+*PROVENANCE*
+*SALE-TERMS*
+*OPEN-ITEMS*
+*DELIVERY-CHECKLIST*
+*VERIFICATION-RECORD*
+*PRODUCT-INVENTORY*
+*THIRD-PARTY-NOTICES*
+*ASSET-AND-TRANSFER*
+*LICENCE-STANDARDISATION*
+*BUYER-RISK*
+*LIABILITY-POSITION*
+*FIDUCIARY*
+*Valuation*
+*valuation*
+*SaleSheet*
+*BuyerEmail*
+*BuyerFAQ*
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*token*
+
+# Source code and product builds
+*.js
+*.mjs
+*.cjs
+*.ts
+*.tsx
+*.py
+*.rb
+*.go
+*.rs
+*.java
+*.cs
+*.c
+*.cpp
+*.lua
+*.ps1
+*.sh
+package.json
+package-lock.json
+node_modules/
+dist/
+build/
+out/
+Assets/
+Application/
+Installer/
+Portable/
+Manuals/
+Media/
+PDF/
+Legal/
+Sales/
+
+# Local tooling - stays on disk, never published
+*.bat
+*.cmd
+*.lnk
+
+# Archives and installers
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.rar
+*.exe
+*.msi
+
+# Working files
+*.log
+*.bak
+*.bak-*
+*.tmp
+_backups/
+_staging/
+_private/
+scratch/
+
+# Editor and operating system noise
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
